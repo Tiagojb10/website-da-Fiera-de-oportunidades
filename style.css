@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #002244;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background: linear-gradient(to bottom, #f7b733, #ffffff);
+    text-align: center;
+    padding: 60px 20px 40px;
+  }
+  
+  .hero h1 {
+    font-size: 2em;
+    color: #002244;
+  }
+  
+  .hero p {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #002244;
+  }
+  
+  .card p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+  }
+  
+  .card button {
+    background-color: #002244;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .card button:hover {
+    background-color: #003366;
+  }
+  
