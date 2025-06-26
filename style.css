@@ -17,17 +17,11 @@
     text-decoration: none;
     margin-left: 20px;
     font-weight: bold;
-  }
-  header nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-    font-weight: bold;
     transition: color 0.3s, text-shadow 0.3s;
   }
 
   header nav a:hover {
-    color: #f7b733; /* yellow-orange glow */
+    color: #f7b733;
     text-shadow: 0 0 8px #f7b733, 0 0 15px #f7b733;
   }
 
