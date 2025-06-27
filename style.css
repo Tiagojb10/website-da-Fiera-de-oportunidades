@@ -1,6 +1,6 @@
-  body {
+body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: montserrat;
   }
   
   header {
@@ -11,36 +11,115 @@
     align-items: center;
     padding: 10px 20px;
   }
-  
+
   header nav a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
     font-weight: bold;
-    transition: color 0.3s, text-shadow 0.3s;
+    transition: color 0.3s;
   }
 
   header nav a:hover {
     color: #f7b733;
-    text-shadow: 0 0 8px #f7b733, 0 0 15px #f7b733;
+    
   }
 
   .hero {
-    background: linear-gradient(to bottom, #f7b733, #ffffff);
+    background-color:#ffb429;
     text-align: center;
     padding: 60px 20px 40px;
   }
   
   .hero h1 {
+    font-family: montserrat;
     font-size: 2em;
     color: #002244;
+    font-weight: bold;
   }
   
   .hero p {
+    font-family: montserrat;
     font-size: 1em;
     color: #333;
   }
   
+.atualizações {
+  background: linear-gradient(to right, #eef3f9, #ffffff);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.atualizações h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #002244;
+}
+
+.atualizações .icon {
+  font-size: 1.2em;
+  margin-right: 8px;
+}
+
+.updates-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.update-card {
+  background-color: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.update-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 91, 170, 0.15);
+}
+
+.update-card strong {
+  display: block;
+  margin-bottom: 10px;
+  color: #002244;
+}
+
+.update-card p {
+  color: #444;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.update-card a {
+  color: #002244;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.update-card a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .updates-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.INSCRIÇÃO{
+    text-align: center;
+}
+.INSCRIÇÃO h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #002244;
+}
   .cards {
     display: flex;
     flex-wrap: wrap;
@@ -56,6 +135,12 @@
     width: 250px;
     padding: 20px;
     text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 91, 170, 0.15);
   }
   
   .card h2 {
