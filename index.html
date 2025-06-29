@@ -4,21 +4,30 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Feira de Oportunidades 2025</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <div>Feira de Oportunidades</div>
-    <nav>
-      <a href="#INSCRIÇÃO">INSCRIÇÃO</a>
-      <a href="#">Sobre</a>
-      <a href="#">PARCEIROS</a>
-      <a href="#">CONTACTO</a>
-    </nav>
+    <div class="logo-container">
+    <img src="assets/logo.png" alt="Logo Feira" />
+    </div>
+
+    <!-- NAV BAR -->
+   <nav>
+    <button class="menu-toggle" aria-label="Abrir menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="SOBRE.HTML">Sobre</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </nav>
+
   </header>
 
-  <div class="hero">
+  <div id="HOME" class="HOME">
     <h1>Feira de Oportunidades 2025</h1>
     <p>Conecte-se com o que pode mudar sua vida.</p>
   </div>
@@ -39,12 +48,12 @@
   </section>
 
   <section id="INSCRIÇÃO" class="INSCRIÇÃO">
-       <h2>INSCREVA-SE</h2>
+       <h2>INSCRIÇÕES</h2>
   <div class="cards">
     <div class="card">
       <h2>Inscreva-se na Feira</h2>
       <p>Garanta seu lugar como expositor ou participante.</p>
-      <button onclick="window.open ('https://forms.gle/xZ2jPmprCLGgvWpk7', '-blank')">Inscrever-se</button>
+      <button onclick="window.open ('https://forms.gle/xZ2jPmprCLGgvWpk7', '_blank')">Inscrever-se</button>
     </div>
     <div class="card">
       <h2>Compre seu Ingresso</h2>
@@ -58,5 +67,54 @@
     </div>
   </div>
   </section>
+
+  <section id="parceiros">
+    <div class="parceiros-container">
+      <h2>NOSSOS PARCEIROS</h2>
+
+      <div class="slider-container">
+        <div class="slider">
+          <img src="assets/RM.png" alt="Parceiro 1">
+          <img src="assets/Cervejas_de_Mocambique_logo.png" alt="Parceiro 2">
+          <img src="assets/WhatsApp Image 2025-06-12 at 14.23.02_eb519c77.jpg" alt="Parceiro 3">
+          <img src="assets/WhatsApp Image 2025-06-12 at 22.32.09_b3e48221.jpg" alt="Parceiro 4">
+          <img src="assets/images (1).png" alt="Parceiro 5">
+          <!--img src="assets/logo.png" alt="Parceiro 6"-->
+          <img src="assets/Movitel-Logo.jpg" alt="Parceiro 7">
+          <img src="assets/WhatsApp Image 2025-06-12 at 22.32.12_25f6b609.jpg" alt="Parceiro 8">
+          <img src="assets/WhatsApp Image 2025-06-12 at 22.32.13_602ee277.jpg" alt="Parceiro 9">
+          <img src="assets/WhatsApp Image 2025-06-12 at 22.32.13_729237d9.jpg" alt="Parceiro 11">
+          <img src="assets/WhatsApp Image 2025-06-12 at 22.32.14_0884af86.jpg" alt="Parceiro 12">
+          <img src="assets/vector Clever enterprises-01.png" alt="Parceiro 13">
+          <img src="assets/DEZAINE00016.png" alt="Parceiro 14">
+          <img src="assets/vector Clever enterprises-01.png" alt="Parceiro 15">
+
+          <!-- Repetição para rolagem contínua -->
+
+           <img src="assets/RM.png" alt="Parceiro 1">
+          <img src="assets/Cervejas_de_Mocambique_logo.png" alt="Parceiro 2">
+          <img src="assets/WhatsApp Image 2025-06-12 at 14.23.02_eb519c77.jpg" alt="Parceiro 3">
+          <img src="assets/WhatsApp Image 2025-06-12 at 22.32.09_b3e48221.jpg" alt="Parceiro 4">
+          <img src="assets/images (1).png" alt="Parceiro 5">
+          <!--img src="assets/logo.png" alt="Parceiro 6"-->
+          <img src="assets/Movitel-Logo.jpg" alt="Parceiro 7">
+          <img src="assets/WhatsApp Image 2025-06-12 at 22.32.12_25f6b609.jpg" alt="Parceiro 8">
+          <img src="assets/WhatsApp Image 2025-06-12 at 22.32.13_602ee277.jpg" alt="Parceiro 9">
+          <img src="assets/WhatsApp Image 2025-06-12 at 22.32.13_729237d9.jpg" alt="Parceiro 11">
+          <img src="assets/WhatsApp Image 2025-06-12 at 22.32.14_0884af86.jpg" alt="Parceiro 12">
+          <img src="assets/vector Clever enterprises-01.png" alt="Parceiro 13">
+          <img src="assets/DEZAINE00016.png" alt="Parceiro 14">
+          <img src="assets/vector Clever enterprises-01.png" alt="Parceiro 15">
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <footer>
+    <p>&copy; 2025 Feira de Oportunidades. Todos os direitos reservados.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+  
 </body>
 </html>
